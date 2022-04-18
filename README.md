@@ -1,2 +1,2 @@
 # Distilling-Knowledge
-训练详情参见 /logs/*
+训练详请参见 logs
