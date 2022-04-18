@@ -6,16 +6,23 @@ import torch.optim as optim
 from models import TeacherModel, StudentModel
 from utils import evaluate, load_data
 from tqdm import tqdm
+from loguru import logger
 
 def distill():
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    logger.add("logs/distilling.log", rotation="1 day")
+
+    # seed everything
+    torch.manual_seed(0)
+    torch.cuda.manual_seed(0)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
     # load data
     train_loader, test_loader = load_data()
 
     # 准备好预训练好的教师模型
     teacher_model = TeacherModel().eval().to(device)
     teacher_model.load_state_dict(torch.load('./checkpoints/teacher_model.pth'))
-    print('Teacher model loaded.')
+    logger.info('Teacher model loaded.')
 
     # 准备好新的学生模型
     model = StudentModel().to(device)
@@ -59,11 +66,11 @@ def distill():
 
 
         accuracy = evaluate(test_loader, model, device)
-        print('Epoch: {} \tAccuracy: {:.4f}'.format(epoch, accuracy * 100))
+        logger.info('Epoch: {} \tAccuracy: {:.4f}'.format(epoch, accuracy * 100))
         if accuracy > best_acc:
             best_acc = accuracy
             torch.save(teacher_model.state_dict(), './checkpoints/student_model.pth')
-        print('Best Accuracy: {:.4f}'.format(best_acc * 100))
+        logger.info('Best Accuracy: {:.4f}'.format(best_acc * 100))
 
 if __name__ == '__main__':
     distill()

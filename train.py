@@ -1,13 +1,15 @@
 import torch
-
 from torch import nn
 import torch.optim as optim
 from torchinfo import summary
 from tqdm import tqdm
 from models import TeacherModel, StudentModel
 from utils import evaluate, load_data
+from loguru import logger
 
 def train():
+
+    logger.add("logs/teather_train.log", rotation="1 day")
 
     # seed everything
     torch.manual_seed(0)
@@ -21,7 +23,7 @@ def train():
     train_loader, test_loader = load_data()
 
     # build model
-    model = StudentModel().to(device)
+    model = TeacherModel().to(device)
     summary(model)
 
     loss_fn = nn.CrossEntropyLoss()
@@ -40,11 +42,11 @@ def train():
             optimizer.step()
 
         accuracy = evaluate(test_loader, model, device)
-        print('Epoch: {} \tAccuracy: {:.4f}'.format(epochs, accuracy * 100))
+        logger.info('Epoch: {} \tAccuracy: {:.4f}'.format(epochs, accuracy * 100))
         if accuracy > best_acc:
             best_acc = accuracy
-            # torch.save(model.state_dict(), './checkpoints/model.pth')
-        print('Best Accuracy: {:.4f}'.format(best_acc * 100))
+            torch.save(model.state_dict(), './checkpoints/teacher_model.pth')
+        logger.info('Best Accuracy: {:.4f}'.format(best_acc * 100))
 
 
 if __name__ == '__main__':

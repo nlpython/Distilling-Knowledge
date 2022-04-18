@@ -1,0 +1,40 @@
+2022-04-18 22:58:36.667 | INFO     | __main__:train:45 - Epoch: 0 	Accuracy: 63.3600
+2022-04-18 22:58:36.667 | INFO     | __main__:train:49 - Best Accuracy: 63.3600
+2022-04-18 22:58:46.569 | INFO     | __main__:train:45 - Epoch: 1 	Accuracy: 72.4600
+2022-04-18 22:58:46.569 | INFO     | __main__:train:49 - Best Accuracy: 72.4600
+2022-04-18 22:58:56.331 | INFO     | __main__:train:45 - Epoch: 2 	Accuracy: 79.0900
+2022-04-18 22:58:56.331 | INFO     | __main__:train:49 - Best Accuracy: 79.0900
+2022-04-18 22:59:06.219 | INFO     | __main__:train:45 - Epoch: 3 	Accuracy: 82.4300
+2022-04-18 22:59:06.219 | INFO     | __main__:train:49 - Best Accuracy: 82.4300
+2022-04-18 22:59:15.974 | INFO     | __main__:train:45 - Epoch: 4 	Accuracy: 85.1600
+2022-04-18 22:59:15.982 | INFO     | __main__:train:49 - Best Accuracy: 85.1600
+2022-04-18 22:59:25.714 | INFO     | __main__:train:45 - Epoch: 5 	Accuracy: 86.2600
+2022-04-18 22:59:25.714 | INFO     | __main__:train:49 - Best Accuracy: 86.2600
+2022-04-18 22:59:35.481 | INFO     | __main__:train:45 - Epoch: 6 	Accuracy: 87.0000
+2022-04-18 22:59:35.481 | INFO     | __main__:train:49 - Best Accuracy: 87.0000
+2022-04-18 22:59:45.297 | INFO     | __main__:train:45 - Epoch: 7 	Accuracy: 87.2000
+2022-04-18 22:59:45.297 | INFO     | __main__:train:49 - Best Accuracy: 87.2000
+2022-04-18 22:59:55.234 | INFO     | __main__:train:45 - Epoch: 8 	Accuracy: 87.6700
+2022-04-18 22:59:55.234 | INFO     | __main__:train:49 - Best Accuracy: 87.6700
+2022-04-18 23:00:05.023 | INFO     | __main__:train:45 - Epoch: 9 	Accuracy: 87.9100
+2022-04-18 23:00:05.024 | INFO     | __main__:train:49 - Best Accuracy: 87.9100
+2022-04-18 23:00:14.757 | INFO     | __main__:train:45 - Epoch: 10 	Accuracy: 88.1000
+2022-04-18 23:00:14.757 | INFO     | __main__:train:49 - Best Accuracy: 88.1000
+2022-04-18 23:00:24.505 | INFO     | __main__:train:45 - Epoch: 11 	Accuracy: 88.1300
+2022-04-18 23:00:24.506 | INFO     | __main__:train:49 - Best Accuracy: 88.1300
+2022-04-18 23:00:34.285 | INFO     | __main__:train:45 - Epoch: 12 	Accuracy: 88.4800
+2022-04-18 23:00:34.285 | INFO     | __main__:train:49 - Best Accuracy: 88.4800
+2022-04-18 23:00:43.997 | INFO     | __main__:train:45 - Epoch: 13 	Accuracy: 88.5700
+2022-04-18 23:00:43.998 | INFO     | __main__:train:49 - Best Accuracy: 88.5700
+2022-04-18 23:00:53.894 | INFO     | __main__:train:45 - Epoch: 14 	Accuracy: 88.8000
+2022-04-18 23:00:53.895 | INFO     | __main__:train:49 - Best Accuracy: 88.8000
+2022-04-18 23:01:03.872 | INFO     | __main__:train:45 - Epoch: 15 	Accuracy: 88.9500
+2022-04-18 23:01:03.873 | INFO     | __main__:train:49 - Best Accuracy: 88.9500
+2022-04-18 23:01:13.609 | INFO     | __main__:train:45 - Epoch: 16 	Accuracy: 89.0000
+2022-04-18 23:01:13.609 | INFO     | __main__:train:49 - Best Accuracy: 89.0000
+2022-04-18 23:01:23.317 | INFO     | __main__:train:45 - Epoch: 17 	Accuracy: 89.0100
+2022-04-18 23:01:23.317 | INFO     | __main__:train:49 - Best Accuracy: 89.0100
+2022-04-18 23:01:33.033 | INFO     | __main__:train:45 - Epoch: 18 	Accuracy: 89.1100
+2022-04-18 23:01:33.034 | INFO     | __main__:train:49 - Best Accuracy: 89.1100
+2022-04-18 23:01:42.836 | INFO     | __main__:train:45 - Epoch: 19 	Accuracy: 89.1300
+2022-04-18 23:01:42.836 | INFO     | __main__:train:49 - Best Accuracy: 89.1300

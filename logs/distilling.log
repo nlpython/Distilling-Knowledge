@@ -1,0 +1,82 @@
+2022-04-18 23:02:26.145 | INFO     | __main__:distill:21 - Teacher model loaded.
+2022-04-18 23:02:37.472 | INFO     | __main__:distill:65 - Epoch: 0 	Accuracy: 56.2600
+2022-04-18 23:02:37.487 | INFO     | __main__:distill:69 - Best Accuracy: 56.2600
+2022-04-18 23:02:48.165 | INFO     | __main__:distill:65 - Epoch: 1 	Accuracy: 68.8300
+2022-04-18 23:02:48.180 | INFO     | __main__:distill:69 - Best Accuracy: 68.8300
+2022-04-18 23:02:58.776 | INFO     | __main__:distill:65 - Epoch: 2 	Accuracy: 76.6700
+2022-04-18 23:02:58.791 | INFO     | __main__:distill:69 - Best Accuracy: 76.6700
+2022-04-18 23:03:09.620 | INFO     | __main__:distill:65 - Epoch: 3 	Accuracy: 79.5000
+2022-04-18 23:03:09.634 | INFO     | __main__:distill:69 - Best Accuracy: 79.5000
+2022-04-18 23:03:20.272 | INFO     | __main__:distill:65 - Epoch: 4 	Accuracy: 81.5500
+2022-04-18 23:03:20.286 | INFO     | __main__:distill:69 - Best Accuracy: 81.5500
+2022-04-18 23:03:30.868 | INFO     | __main__:distill:65 - Epoch: 5 	Accuracy: 83.0200
+2022-04-18 23:03:30.882 | INFO     | __main__:distill:69 - Best Accuracy: 83.0200
+2022-04-18 23:03:41.565 | INFO     | __main__:distill:65 - Epoch: 6 	Accuracy: 83.7100
+2022-04-18 23:03:41.579 | INFO     | __main__:distill:69 - Best Accuracy: 83.7100
+2022-04-18 23:03:52.289 | INFO     | __main__:distill:65 - Epoch: 7 	Accuracy: 84.6400
+2022-04-18 23:03:52.304 | INFO     | __main__:distill:69 - Best Accuracy: 84.6400
+2022-04-18 23:04:02.968 | INFO     | __main__:distill:65 - Epoch: 8 	Accuracy: 85.5500
+2022-04-18 23:04:02.984 | INFO     | __main__:distill:69 - Best Accuracy: 85.5500
+2022-04-18 23:04:14.154 | INFO     | __main__:distill:65 - Epoch: 9 	Accuracy: 85.6900
+2022-04-18 23:04:14.169 | INFO     | __main__:distill:69 - Best Accuracy: 85.6900
+2022-04-18 23:04:25.198 | INFO     | __main__:distill:65 - Epoch: 10 	Accuracy: 86.6800
+2022-04-18 23:04:25.213 | INFO     | __main__:distill:69 - Best Accuracy: 86.6800
+2022-04-18 23:04:35.950 | INFO     | __main__:distill:65 - Epoch: 11 	Accuracy: 87.3000
+2022-04-18 23:04:35.964 | INFO     | __main__:distill:69 - Best Accuracy: 87.3000
+2022-04-18 23:04:46.642 | INFO     | __main__:distill:65 - Epoch: 12 	Accuracy: 87.5900
+2022-04-18 23:04:46.656 | INFO     | __main__:distill:69 - Best Accuracy: 87.5900
+2022-04-18 23:04:57.306 | INFO     | __main__:distill:65 - Epoch: 13 	Accuracy: 87.6900
+2022-04-18 23:04:57.322 | INFO     | __main__:distill:69 - Best Accuracy: 87.6900
+2022-04-18 23:05:08.035 | INFO     | __main__:distill:65 - Epoch: 14 	Accuracy: 88.4100
+2022-04-18 23:05:08.050 | INFO     | __main__:distill:69 - Best Accuracy: 88.4100
+2022-04-18 23:05:18.996 | INFO     | __main__:distill:65 - Epoch: 15 	Accuracy: 88.3600
+2022-04-18 23:05:18.997 | INFO     | __main__:distill:69 - Best Accuracy: 88.4100
+2022-04-18 23:05:29.948 | INFO     | __main__:distill:65 - Epoch: 16 	Accuracy: 88.5600
+2022-04-18 23:05:29.966 | INFO     | __main__:distill:69 - Best Accuracy: 88.5600
+2022-04-18 23:05:40.628 | INFO     | __main__:distill:65 - Epoch: 17 	Accuracy: 88.6300
+2022-04-18 23:05:40.644 | INFO     | __main__:distill:69 - Best Accuracy: 88.6300
+2022-04-18 23:05:51.280 | INFO     | __main__:distill:65 - Epoch: 18 	Accuracy: 88.6800
+2022-04-18 23:05:51.296 | INFO     | __main__:distill:69 - Best Accuracy: 88.6800
+2022-04-18 23:06:02.313 | INFO     | __main__:distill:65 - Epoch: 19 	Accuracy: 88.8800
+2022-04-18 23:06:02.328 | INFO     | __main__:distill:69 - Best Accuracy: 88.8800
+2022-04-18 23:10:44.241 | INFO     | __main__:distill:25 - Teacher model loaded.
+2022-04-18 23:10:55.520 | INFO     | __main__:distill:69 - Epoch: 0 	Accuracy: 73.7100
+2022-04-18 23:10:55.535 | INFO     | __main__:distill:73 - Best Accuracy: 73.7100
+2022-04-18 23:11:06.192 | INFO     | __main__:distill:69 - Epoch: 1 	Accuracy: 79.2600
+2022-04-18 23:11:06.206 | INFO     | __main__:distill:73 - Best Accuracy: 79.2600
+2022-04-18 23:11:16.884 | INFO     | __main__:distill:69 - Epoch: 2 	Accuracy: 81.7300
+2022-04-18 23:11:16.898 | INFO     | __main__:distill:73 - Best Accuracy: 81.7300
+2022-04-18 23:11:27.541 | INFO     | __main__:distill:69 - Epoch: 3 	Accuracy: 84.2000
+2022-04-18 23:11:27.557 | INFO     | __main__:distill:73 - Best Accuracy: 84.2000
+2022-04-18 23:11:38.258 | INFO     | __main__:distill:69 - Epoch: 4 	Accuracy: 85.6600
+2022-04-18 23:11:38.276 | INFO     | __main__:distill:73 - Best Accuracy: 85.6600
+2022-04-18 23:11:48.930 | INFO     | __main__:distill:69 - Epoch: 5 	Accuracy: 86.7600
+2022-04-18 23:11:48.945 | INFO     | __main__:distill:73 - Best Accuracy: 86.7600
+2022-04-18 23:12:00.497 | INFO     | __main__:distill:69 - Epoch: 6 	Accuracy: 87.3100
+2022-04-18 23:12:00.513 | INFO     | __main__:distill:73 - Best Accuracy: 87.3100
+2022-04-18 23:12:11.203 | INFO     | __main__:distill:69 - Epoch: 7 	Accuracy: 87.8700
+2022-04-18 23:12:11.217 | INFO     | __main__:distill:73 - Best Accuracy: 87.8700
+2022-04-18 23:12:21.849 | INFO     | __main__:distill:69 - Epoch: 8 	Accuracy: 88.2700
+2022-04-18 23:12:21.865 | INFO     | __main__:distill:73 - Best Accuracy: 88.2700
+2022-04-18 23:12:32.549 | INFO     | __main__:distill:69 - Epoch: 9 	Accuracy: 88.5000
+2022-04-18 23:12:32.563 | INFO     | __main__:distill:73 - Best Accuracy: 88.5000
+2022-04-18 23:12:43.237 | INFO     | __main__:distill:69 - Epoch: 10 	Accuracy: 88.8200
+2022-04-18 23:12:43.251 | INFO     | __main__:distill:73 - Best Accuracy: 88.8200
+2022-04-18 23:12:53.922 | INFO     | __main__:distill:69 - Epoch: 11 	Accuracy: 88.8800
+2022-04-18 23:12:53.937 | INFO     | __main__:distill:73 - Best Accuracy: 88.8800
+2022-04-18 23:13:04.749 | INFO     | __main__:distill:69 - Epoch: 12 	Accuracy: 89.1300
+2022-04-18 23:13:04.765 | INFO     | __main__:distill:73 - Best Accuracy: 89.1300
+2022-04-18 23:13:15.552 | INFO     | __main__:distill:69 - Epoch: 13 	Accuracy: 89.2200
+2022-04-18 23:13:15.569 | INFO     | __main__:distill:73 - Best Accuracy: 89.2200
+2022-04-18 23:13:26.282 | INFO     | __main__:distill:69 - Epoch: 14 	Accuracy: 89.3400
+2022-04-18 23:13:26.298 | INFO     | __main__:distill:73 - Best Accuracy: 89.3400
+2022-04-18 23:13:36.966 | INFO     | __main__:distill:69 - Epoch: 15 	Accuracy: 89.3700
+2022-04-18 23:13:36.981 | INFO     | __main__:distill:73 - Best Accuracy: 89.3700
+2022-04-18 23:13:47.680 | INFO     | __main__:distill:69 - Epoch: 16 	Accuracy: 89.5000
+2022-04-18 23:13:47.696 | INFO     | __main__:distill:73 - Best Accuracy: 89.5000
+2022-04-18 23:13:58.411 | INFO     | __main__:distill:69 - Epoch: 17 	Accuracy: 89.6700
+2022-04-18 23:13:58.425 | INFO     | __main__:distill:73 - Best Accuracy: 89.6700
+2022-04-18 23:14:09.257 | INFO     | __main__:distill:69 - Epoch: 18 	Accuracy: 89.8000
+2022-04-18 23:14:09.273 | INFO     | __main__:distill:73 - Best Accuracy: 89.8000
+2022-04-18 23:14:20.188 | INFO     | __main__:distill:69 - Epoch: 19 	Accuracy: 89.7600
+2022-04-18 23:14:20.188 | INFO     | __main__:distill:73 - Best Accuracy: 89.8000
